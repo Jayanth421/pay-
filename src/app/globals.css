@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #fefce8;
+    color: #171717;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+}
+
+/* Neo-Brutalism Design Utilities */
+.neo-card {
+  background-color: #ffffff;
+  border: 2.5px solid #000000;
+  border-radius: 1.25rem;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.neo-card-lg {
+  background-color: #ffffff;
+  border: 3px solid #000000;
+  border-radius: 1.5rem;
+  box-shadow: 6px 6px 0px 0px #000000;
+}
+
+.neo-btn-primary {
+  background-color: #ffde59;
+  color: #000000;
+  border: 2.5px solid #000000;
+  border-radius: 1rem;
+  box-shadow: 4px 4px 0px 0px #000000;
+  font-weight: 800;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.neo-btn-primary:hover {
+  background-color: #fed736;
+}
+
+.neo-btn-primary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0px 0px #000000;
+}
+
+.neo-btn-secondary {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2.5px solid #000000;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 0px 0px #000000;
+  font-weight: 700;
+  transition: all 0.15s ease-in-out;
+  cursor: pointer;
+}
+
+.neo-btn-secondary:hover {
+  background-color: #f4f4f5;
+}
+
+.neo-btn-secondary:active {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px 0px #000000;
+}
+
+.neo-input {
+  border: 2.5px solid #000000;
+  border-radius: 1rem;
+  background-color: #ffffff;
+  box-shadow: 3px 3px 0px 0px #000000;
+  font-weight: 700;
+}
+
+.neo-input:focus {
+  outline: none;
+  background-color: #ffffff;
+  box-shadow: 4px 4px 0px 0px #000000;
+}
+
+.neo-badge {
+  border: 2px solid #000000;
+  border-radius: 9999px;
+  font-weight: 800;
+  font-size: 0.75rem;
+  box-shadow: 2px 2px 0px 0px #000000;
+}
